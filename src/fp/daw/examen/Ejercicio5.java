@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 	/* 
@@ -23,8 +25,28 @@ public class Ejercicio5 {
 	 */
 	
 	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		int [] billete= {500, 200, 100, 50, 20, 10, 5},
+		int [] moneda={2, 1};
+		int dinero=0;
 		
-
+		if (dinero<9000) {
+			System.out.println("Introduce la cantidad de dinero (no superior a 9.000 euros): ");
+			dinero=sc.nextInt();
+		}
+		else if (dinero>9000) {
+			do {
+				System.out.println("Error. Introduce la cantidad de dinero (no superior a 9.000 euros): ");
+				dinero=sc.nextInt();
+			}while (dinero>9000);
+		}
+		
+		int[] devolver= {dinero};
+		if (devolver[0]
+		
+		
+		System.out.println(numero+ " billete(s) de "++ " euros.");
+		
 	}
-
 }
+		

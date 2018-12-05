@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio4 {
 
 	/* 
@@ -12,7 +14,11 @@ public class Ejercicio4 {
 	 * Finalmente retornará el array.
 	 */
 	
-	public static ...
+	public static int[] arrayAleatorioOrdenado (int [] nums) {
+		Random rd=new Random();
+		
+		return nums;
+	}
 	
 	/*
 	 * 0,25 puntos

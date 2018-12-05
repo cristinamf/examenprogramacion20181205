@@ -11,8 +11,11 @@ public class Ejercicio2 {
 	 * contenga los mismos caracteres que ésta y en el mismo orden. 
 	 */
 	
-	public static ...
-	
+	public static String[] stringToArray (String cadena) {
+		String [] cadenas= {cadena.substring(0, cadena.length())};
+		
+		return cadenas;
+	}
 	
 	/*
 	 * 0,25 puntos
@@ -22,7 +25,6 @@ public class Ejercicio2 {
 	 */
 	
 	public static void main(String[] args) {
-		
 
 	}
 

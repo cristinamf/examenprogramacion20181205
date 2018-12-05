@@ -42,6 +42,15 @@ public class Ejercicio3 {
 		return nums;
 	}
 	
+	public static int [] fix45While(int [] nums) {
+		int i=0;
+		while (nums[i] == 4 && nums[i+1] != 5) {
+			
+		}
+		
+		return nums;
+	}
+	
 	/*
 	 * 0,25 puntos
 	 * 
